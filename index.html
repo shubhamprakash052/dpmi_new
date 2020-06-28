@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<title>DPMI home</title>
+    </head>
+        <body>
+          <p id = "home_top"></p>
+          <!-- social media's links starts here-->
+        <nav class="navbar" name="top" style="background-color:white;height:50px;width: 100%;"> 
+            <!-- Navbar content -->
+            <div class="media mt-3;margin-left:mx-auto">
+            <a class="mr-3" href="#"><img src="whatsapp" class="mr-3" alt="..."style="height:30px"></a>
+        <a class="mr-3" href="#"><img src="images/facebook_trans.png" class="mr-3" alt="..."style="height:30px"></a>
+        <a class="mr-3" href="#"><img src="images/youtube_trans.jpg" class="mr-3" alt="..."style="height:30px"></a>
+        <a class="mr-3" href="#"><img src="images/instagram_trans.jpg" class="mr-3" alt="..."style="height:30px"></a>
+        <a class="mr-3" href="#"><img src="images/twitter_trans.png" class="mr-3" alt="..."style="height:30px;"></a>
+            </div>
+          </nav>
+          <!-- social media's links ends here-->
+          <!--the actual nav bar starts here -->
+          <nav class="navbar navbar-expand-lg navbar-light ">
+            <img src="DPMI.png"alt="logo" stlyle="height:5px;width:2px;">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item ">
+                  <a STYLE="color:#006400" class="nav-link" href="#home_top">HOME<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a STYLE="color:#006400" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ABOUT
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="about1.html">About Us</a>
+                    <a class="dropdown-item" href="director_message1.html">Director Message</a>
+                    <a class="dropdown-item" href="principal_message1.html">Principal Message</a>
+                    <a class="dropdown-item" href="#recruiters">Our Recruiters</a>
+                    <!-- <a class="dropdown-item" href="#">Beyond Academics</a> -->
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a STYLE="color:#006400" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PROGRAMS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="paramedical_program.html">Paramediacal</a>
+                      <a class="dropdown-item" href="hotel_management_programs.html">Hotel Management</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a STYLE="color:#006400" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ADMISSION
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="admission_detail.html">Admission Process</a>
+                      <a class="dropdown-item" href="admission_detail.html#eligibility">Eiligibility Criteria</a>
+                      <a class="dropdown-item" href="#">Download Application Form</a>
+                      <a class="dropdown-item" href="admission_form.html">Apply Now</a>
+                      <a class="dropdown-item" href="#">Results</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a STYLE="color:#006400" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      HAPPENING
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="events.html">Events Gallery</a>
+                      <a class="dropdown-item" href="media_covorage.html">Media Covorage</a>       
+                    </div>
+                  </li>
+                  
+                  <li class="nav-item active">
+    <li class="nav-item ">
+                    <a STYLE="color:#006400" class="nav-link" href="contact.html">CONTACT<span class="sr-only">(current)</span></a>
+                  </li>
+              </ul>
+            </div>
+          </nav> 
+   <!--the actual nav bar ends here -->
+          
+            <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="img1" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="img2" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+              <img src="img3" style="width:100%">
+            </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            <script>
+              var slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+              }
+              </script>
+              <h1 style="color:darkgreen;text-align:center;">OUR PROGRAMS</h1>
+              <div class="card-group">
+                <div class="card">
+                  <img src="life-dpmi12-1-300x139.jpg" class="card-img-top" alt="PARAMEDICAL">
+                  <div class="card-body">
+                    <h5  class="card-title"><button  class="button button1"style="background-color:darkgreen"><a style="color:white;"href="paramedical_program.html">Paramedical</a></button></h5>
+                  
+                  </div>
+                </div>
+                <div class="card">
+                  <img src="hm-300x139.jpg" class="card-img-top" alt="HOTEL MANAGEMENT">
+                  <div class="card-body">
+                    <h5 class="card-title"><button style="background-color:#006400;" class="button button1"><a style="color:white;"href="hotel_management_programs.html">Hotel Management</a></button></h5>
+                  </div>
+                </div>
+              </div>
+         <!-- MAIN (Center website) -->
+    <!-- END MAIN -->
+ 				
+    <div class="jumbotron jumbotron-fluid" style="background-color:#006400;">
+	  <div class="container">
+	    <h1 class="display-6" style="color:white;text-align: center;">DPMI'S ADVANTAGES</h1>
+	    <p class="lead">
+	    	<ol type="1" style="color:white;color:yellow;" class="lead">
+	    		<li><b>23 YEARS OF QUALITY ASSURANCE</b><br />More than two decades of successful and enriching experience</li>
+	    		<li><b>EXPERIENCED TEAM</b><br />Highly qualified and experienced faculty for complete guidance and Imparting knowledge</li>
+	    		<li><b>ADEQUATE RESOURCES & FACILITIES</b><br />State of the art infrastructure allowing students to get well versed with the real technology being used in their respective field</li>
+	    	</ol>
+	    </p>
+	  </div>
+	</div>
+
+
+<p id="recruiters"></p>
+<h1 style="color:darkgreen;text-align:center;">PLACEMENTS</h1>
+<!--------------------------------------------------------------------paramedica placement image-->
+<h3 style="color:black;text-align:center;">Paramedical Recruiters</h3>
+<!-- Portfolio Gallery Grid -->
+<div class="row1 row2">
+  <div class="column1 column2">
+    <div class="content1 content2">
+      <img src="paramedical_placement/Onquest.jpg" alt="onquest" style="width:100%">
+    </div>
+  </div>
+  <div class="column1 column2">
+    <div class="content1 content2">
+    <img src="paramedical_placement/Mool-chand.jpg" alt="mool chand" style="width:100%">
+    </div>
+  </div>
+  <div class="column1 column2">
+    <div class="content1 content2">
+    <img src="paramedical_placement/Metro-hospital.jpg" alt="metro hospital" style="width:100%">
+    </div>
+  </div>
+  <div class=" column1 column2">
+    <div class="content1 content2">
+    <img src="paramedical_placement/Medanta.jpg" alt="medanta" style="width:100%">
+  </div>
+<!-- END GRID -->
+</div>
+<div class="row1 row3">
+  <div class="column1 column3">
+    <div class="content1 content3">
+      <img src="paramedical_placement/Foprtis.jpg" alt="foprits" style="width:100%">
+    </div>
+  </div>
+  <div class="column1 column3">
+    <div class="content1 content3">
+    <img src="paramedical_placement/Daigno-lab.jpg" alt="diagnol lab"  style="width:100%">
+    </div>
+  </div>
+  <div class="column1 column3">
+    <div class="content1 content3">
+    <img src="paramedical_placement/Colmbia.jpg" alt="colmbia"  style="width:100%">
+    </div>
+  </div>
+  <div class=" column1 column3">
+    <div class="content1 content3">
+    <img src="paramedical_placement/Daigno-lab.jpg" alt="digno"style="width:100%">
+  </div>
+<!-- END GRID -->
+</div>
+</div>
+<div class="row1 row4">
+<div class="column1 column4">
+  <div class="content1 content4">
+    <img src="paramedical_placement/BLK.jpeg" alt="blk" style="width:100%">
+  </div>
+</div>
+<div class="column1 column4">
+  <div class="content1 content4">
+  <img src="paramedical_placement/Apolo.jpg" alt="apolo" style="width:100%">
+  </div>
+</div>
+<div class="column1 column4">
+  <div class="content1 content4">
+  <img src="paramedical_placement/Max.jpg" alt="max" style="width:100%">
+  </div>
+</div>
+<div class="column1 column4">
+  <div class="content1 content4">
+  <img src="paramedical_placement/lal-path-lab.jpg" alt="lal path-lab" style="width:100%">
+  </div>
+</div>
+<!-- END GRID -->
+</div>
+<!---------------------------------------------------------------------hotel management placement-------->
+
+<h3 style="color:black;text-align:center;">Hotel Management Recruiters</h3>
+<!-- Portfolio Gallery Grid -->
+<div class="row1 row5">
+  <div class="column1 column5">
+    <div class="content1 content5">
+      <img src="hotel_management_placement/grand.jpg" alt="grand" style="width:100%">
+    </div>
+  </div>
+  <div class="column1 column5">
+    <div class="content1 content5">
+    <img src="hotel_management_placement/holiday.jpg" alt="holiday" style="width:100%">
+    </div>
+  </div>
+  <div class="column1 column5">
+    <div class="content1 content5">
+    <img src="hotel_management_placement/JW.jpg" alt="jw" style="width:100%">
+    </div>
+  </div>
+  <div class=" column1 column5">
+    <div class="content1 content5">
+    <img src="hotel_management_placement/Jypee.jpg" alt="jaypee" style="width:100%">
+  </div>
+<!-- END GRID -->
+</div>
+<div class="row1 row6">
+  <div class="column1 column6">
+    <div class="content1 content6">
+      <img src="hotel_management_placement/Red.jpg" alt="red" style="width:100%">
+    </div>
+  </div>
+  <div class="column1 column6">
+    <div class="content1 content6">
+    <img src="hotel_management_placement/Taj.jpg" alt="taj"  style="width:100%">
+    </div>
+  </div>
+  <div class="column1 column6">
+    <div class="content1 content6">
+    <img src="hotel_management_placement/the-impreail.jpg" alt="imperal"  style="width:100%">
+    </div>
+  </div>
+  <div class=" column1 column6">
+    <div class="content1 content6">
+    <img src="hotel_management_placement/JW.jpg" alt="jww" style="width:100%">
+  </div>
+</div>
+<img src="index.jpeg" class="rounded mx-auto d-block" alt="logo"style="height:150px;width:150px;">
+  <img  class="card-img-top" src="maxresdefault.jpg" alt="Card image cap">
+
+
+    <div class="jumbotron jumbotron-fluid" style="background-color:#006400;">
+	  <div class="container">
+	    <h1 class="display-4" style="color:white;text-align: center;">STUDY AT DPMI</h1>
+	    <p class="lead" style="color:white;color:yellow;">
+	    	Delhi Paramedical & Management Institute, popularly known as DPMI in the Education sector was established in Delhi with the objective of providing quality Paramedical and Technical Management education for under 10th, 10+2, graduate and post graduate levels.
+	    </p>
+	    <!------------------------------------->
+	    <h1 class="display-4" style="color:white;text-align:center;">WHAT MAKES US</h1>
+      <h1 class="display-4" style="color:white;text-align:center;">DIFFERENT</h1>
+	    <p style="color:white;color:yellow;">
+	    	<ol style="color:white;color:yellow;">
+	    		<li class="lead">23 Years of Excellence<br />More than two decades of a successful and enriching experience.</li>
+	    		<li class="lead">Specialised Programs <br />Delhi Paramedical & Management Institute has been offering professional courses in the field of Paramedical Sciences and Hotel Management programmes.</li>
+	    		<li class="lead">100% Internship & Placement Assistance<br /> The institute aims to provide trained, qualified, technical personnel in the field of Paramedical Science to support the medical profession. Yes DPMI assure 100% job placement assistance to the deserving candidates.</li>
+	    	</ol>
+	    </p>
+	  </div>
+	</div>
+
+</div>  
+
+
+          
+<!-- Footer -->
+<footer class="page-footer font-small "style="background-color:white;">
+
+  <div style="background-color:WHITE;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div  class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div  class="container text-center text-md-left mt-5">
+
+    <!-- Grid row -->
+    <div  class="row mt-3">
+
+      <!-- Grid column -->
+      <div  class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <h6 style="color:#006400;"  class="text-uppercase font-weight-bold">CONTACT</h6>
+        <hr  class=" accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="fas fa-home mr-3"></i>DPMI ,BALASORE ,ODISHA</p>
+        <p>
+          <i class="fas fa-envelope mr-3"></i>E-mail : dpmibalasore @gmail.com</p>
+        <p>
+          <i class="fas fa-phone mr-3"></i> PHONE(MOBILE NO) : +919439561184, +918249236103, </p>
+        <p>
+          <i class="fas fa-print mr-3"></i>Whatsapp: 9439561184</p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div  class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6  style="color:#006400;" class="text-uppercase font-weight-bold">Admission</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="admission_detail.html#eligibility">Eligibility Criteria</a>
+        </p>
+        <p>
+          <a href="#!">Prospectus</a>
+        </p>
+        <p>
+          <a href="#!">Download Form</a>
+        </p>
+        <p>
+          <a href="contact.html">Contact Us</a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <h6 style="color:#006400;" class="text-uppercase font-weight-bold">DPMI Programs</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="paramedical_program.html">Paramedical Programs</a>
+        </p>
+        <p>
+          <a href="hotel_management_programs.html">Hotel Management </a>
+        </p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+     
+ <!-- Links -->
+ <h6 style="color:#006400;" class="text-uppercase font-weight-bold">OTHERS</h6>
+ <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+ <p>
+   <a href="events.html">Gallery</a>
+ </p>
+ <p>
+   <a href="#!">eLibrary</a>
+ </p>
+ <p>
+  <a href="contact.html#map-container-google-1">Location</a>
+</p>
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div style="color:#006400;" class="footer-copyright text-center py-3">
+    ©DPMI BALASORE <br />
+    <a href="developer.html"> ---DEVELOPERS---</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+       </body>
+       <link rel="stylesheet" type="text/css" href="./css/dropdown.css">
+       <link rel="stylesheet" type="text/css" href="dropdown.css">
+       <link rel="stylesheet" type="text/css" href="./css/home.css">
+       <link rel="stylesheet" type="text/css" href="home.css">  
+       
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+            </html>

@@ -1,0 +1,87 @@
+.parallax{
+    background-image: url("http://s1.picswalls.com/wallpapers/2015/09/20/2015-wallpaper_111525594_269.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 500px;
+}
+
+.aff_member .card-deck .card img{
+	height: 150px;
+	width: 150px;
+}
+
+
+.aff_member h1{
+	text-align: center;
+	margin: 20px;
+}
+
+.strength{
+	background-color:  #dfdfdf ;
+}
+
+.strength .table tr td ul li{
+	color = black;
+}
+
+.strength .table tr td ul li h5{
+	color: black;
+	margin-right: 40px;
+}
+
+.strength .table tr td ul li h6{
+	color: black;
+	margin-right: 40px;
+}
+
+.strength .table tr td h1{
+	color: black;
+	margin-left: 40px;
+}
+
+.strength .table tr td p{
+	color: black;
+	text-align: justify-all;
+	float: left;
+	margin-left: 40px;
+}
+
+.parallax{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 400px;
+}
+
+.yup1{
+	text-align: right;
+}
+
+.yup2{
+	text-align: left;
+}
+
+.yup2 input{
+	width: 70%;
+}
+
+
+.dev_cen{
+	margin: 0 auto 0 auto;
+	text-align: center;
+	line-height: 2;
+}
+
+.dev_cen table tr td{
+	text-align: justify-all;
+}
+
+.dev_cen img{
+	margin-bottom: 20px;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px;
+}
